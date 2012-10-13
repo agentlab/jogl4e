@@ -1,0 +1,8 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Osx Fragment
+Bundle-SymbolicName: org.jogamp.jogl.osx
+Bundle-Version: 1.1.2
+Bundle-Vendor: JOGL
+Fragment-Host: org.eclipse.plugin.jogl;bundle-version="1.1.2"
+Eclipse-PlatformFilter: (& (osgi.ws=carbon) (osgi.os=macosx) (|(osgi.arch=x86)(osgi.arch=ppc)) )
